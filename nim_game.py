@@ -49,7 +49,7 @@ def main():
     while x < 15:
         x = int(input("Dude, pick something larger than 15. Geez."))
     while x > 0:
-        x = amount_of_balls_for_turn(x)
+        x = amount_of_balls_for_turn(x) # comment
         x = turns(x)
 
 main()
